@@ -16,7 +16,7 @@ function selectElement(element) {
   // La agrega al item seleccionado
   element.classList.add('selected');
   
-  // Canbia el color a verde
+  // Cambia el color a verde
   ibai.style.borderColor = ibai.classList.contains('selected') ? 'green' : '';
   messi.style.borderColor = messi.classList.contains('selected') ? 'green' : '';
   shakira.style.borderColor = shakira.classList.contains('selected') ? 'green' : '';

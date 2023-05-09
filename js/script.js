@@ -96,6 +96,10 @@ tiempoParaGanarlo();
 
 
 
+
+//!pruebas de event listeners sobre click en las cartas (actualmente estas clases clickA A2 y A3 no estan aplicadas a ningun elemento)
+
+
 const clickAElement = document.querySelector('.clickA');
 document.querySelector('.clickA').addEventListener('click', function() {
     alert('Haz hecho click en el elemento con clase "clickA"');

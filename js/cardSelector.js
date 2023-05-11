@@ -1,4 +1,4 @@
-const ibai = document.querySelector('.ibai');
+/* const ibai = document.querySelector('.ibai');
 const messi = document.querySelector('.messi');
 const shakira = document.querySelector('.shakira');
 
@@ -21,3 +21,5 @@ function selectElement(element) {
   messi.style.borderColor = messi.classList.contains('selected') ? 'green' : '';
   shakira.style.borderColor = shakira.classList.contains('selected') ? 'green' : '';
 }
+
+ */

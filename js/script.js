@@ -1,3 +1,4 @@
+
 // Clase Usuario
 class Usuario {
   constructor() {
@@ -114,5 +115,7 @@ document.querySelector('.clickA2').addEventListener('click', function() {
   document.querySelector('.clickA3').addEventListener('click', function() {
       alert('Haz hecho click en el elemento con clase "clickA3"');
     });
+
+    
 
     

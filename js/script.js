@@ -1,4 +1,4 @@
-
+/* 
 // Clase Usuario
 class Usuario {
   constructor() {
@@ -118,4 +118,4 @@ document.querySelector('.clickA2').addEventListener('click', function() {
 
     
 
-    
+     */

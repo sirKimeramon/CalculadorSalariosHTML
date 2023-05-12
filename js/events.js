@@ -1,3 +1,5 @@
+
+
 const inputSalario = document.getElementById("salario-mensual")
 const btnComparar = document.getElementById("btn-comparar")
 
@@ -96,6 +98,8 @@ divTarjetaIbai.appendChild(divContenidoIbai);
 contenedorTarjetas.appendChild(divTarjetaIbai);
 
 const arrayFamosos =[cardMessi,cardIbai,cardShakira]
+
+
 
 // Event listener para seleccionar una tarjeta a la vez
 const tarjetas = document.querySelectorAll('.card');

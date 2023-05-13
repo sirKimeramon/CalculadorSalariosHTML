@@ -217,3 +217,22 @@ button {
  .selected {
   border: 5px solid lime!important;
 }
+body.swal2-shown > [aria-hidden="true"] {
+  transition: 0.1s filter;
+  filter: blur(10px);
+}
+
+.fCash{
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+.iconNEW{
+  width: 3em;
+  height: 3em;
+  vertical-align: middle;
+}
+
+git config --global user.email "zarek@kimeramon.digital"
+  git config --global user.name "Zarek"

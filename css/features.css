@@ -223,6 +223,9 @@ button {
 
  .selected {
   border: 5px solid lime!important;
+
+
+/* SweetAlert2 CSS */  
 }
 body.swal2-shown > [aria-hidden="true"] {
   transition: 0.1s filter;
@@ -243,4 +246,13 @@ body.swal2-shown > [aria-hidden="true"] {
 
 .swal2-icon{
   border:0px!important;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color:rgb(241, 115, 61) ;
+}
+
+.swal2-popup{
+  background:#212529;
+  color:white;
 }

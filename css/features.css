@@ -260,6 +260,7 @@ body.swal2-shown > [aria-hidden="true"] {
 .swal2-styled.swal2-confirm {
   background-color:rgb(241, 115, 61) !important;
   border-radius: 0 !important;
+  border-color: rgb(241, 115, 61);
 }
 
 .swal2-popup{

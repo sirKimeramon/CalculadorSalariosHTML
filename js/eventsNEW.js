@@ -19,6 +19,9 @@ function tiempoParaGanarlo() {
   const figuraPublica = document.querySelector("#figuraPublica").value;
   const salarioFiguraPublica = SALARIOS_ANUALES_FIGURAS_PUBLICAS[figuraPublica];
   const salarioAnual = salarioMensual * 12;
+  localStorage.setItem('salarioAnual', JSON.stringify(salarioAnual));
+
+
 
   if (salarioFiguraPublica) {
     const segundosParaGanarSueldoUsuario =

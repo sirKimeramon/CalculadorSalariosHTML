@@ -90,8 +90,18 @@ body{
   transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
   width: 80%;
   border-radius: 15px;
+  
  }
- 
+ input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+        margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
  .input:focus, input:hover {
   outline: none;
   padding: .9rem 1rem;
@@ -224,7 +234,6 @@ button {
  .selected {
   border: 5px solid lime!important;
 
-
 /* SweetAlert2 CSS */  
 }
 body.swal2-shown > [aria-hidden="true"] {
@@ -249,10 +258,12 @@ body.swal2-shown > [aria-hidden="true"] {
 }
 
 .swal2-styled.swal2-confirm {
-  background-color:rgb(241, 115, 61) ;
+  background-color:rgb(241, 115, 61) !important;
+  border-radius: 0 !important;
 }
 
 .swal2-popup{
-  background:#212529;
-  color:white;
+  background:#212529!important;
+  color:white!important;
 }
+

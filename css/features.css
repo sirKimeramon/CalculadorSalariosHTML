@@ -241,3 +241,6 @@ body.swal2-shown > [aria-hidden="true"] {
   vertical-align: middle;
 }
 
+.swal2-icon{
+  border:0px!important;
+}

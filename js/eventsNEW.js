@@ -50,7 +50,7 @@ function tiempoParaGanarlo() {
     left top
     repeat
   `,
-  iconHtml: '<img class="iconNEW" src="./assets/images/money.png">',
+  iconHtml: '<img class="iconNEW" src="./assets/images/fCash.gif">',
   customClass: {
     icon: 'no-border'
   }

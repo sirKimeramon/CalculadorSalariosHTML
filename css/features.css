@@ -1,6 +1,12 @@
-.container.h1{
-  
+.textoNaranja{
+color:rgb(241, 115, 61); 
 }
+
+body{
+  background-color: black;
+}
+
+
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, .1);
@@ -72,28 +78,29 @@
 /* From uiverse.io by @alexruix */
 
 .input {
-  line-height: 46px;
-  font-size: 2vh;
+  line-height: 30px;
+  font-size: 1.5vh;
   text-align: center;
-  border: 2px solid transparent;
+  border: 1px solid ;
   border-bottom-color: #777;
-  padding: .2rem 0;
+  padding: .5rem 0;
   outline: none;
-  background-color: transparent;
-  color: #0d0c22;
+  background-color: ;
+  color: rgb(41, 41, 41);
   transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
   width: 80%;
+  border-radius: 15px;
  }
  
  .input:focus, input:hover {
   outline: none;
-  padding: .2rem 1rem;
+  padding: .9rem 1rem;
   border-radius: 1rem;
   border-color: #7a9cc6;
  }
  
  .input::placeholder {
-  color: #777;
+  color: rgb(41, 41, 41);
  }
  
  .input:focus::placeholder {
@@ -159,10 +166,10 @@ button {
   border-radius: 12px;
   background: linear-gradient(
      to left,
-     hsl(340deg 100% 16%) 0%,
-     hsl(340deg 100% 32%) 8%,
-     hsl(340deg 100% 32%) 92%,
-     hsl(340deg 100% 16%) 100%
+     hsl(26, 100%, 16%) 0%,
+     hsl(29, 100%, 32%) 8%,
+     hsl(28, 100%, 32%) 92%,
+     hsl(24, 100%, 16%) 100%
    );
  }
  
@@ -172,8 +179,8 @@ button {
   padding: 12px 27px;
   border-radius: 12px;
   font-size: 1.1rem;
-  color: white;
-  background: hsl(345deg 100% 47%);
+  color: black;
+  background: rgb(241, 115, 61);
   will-change: transform;
   transform: translateY(-4px);
   transition: transform
@@ -234,5 +241,3 @@ body.swal2-shown > [aria-hidden="true"] {
   vertical-align: middle;
 }
 
-git config --global user.email "zarek@kimeramon.digital"
-  git config --global user.name "Zarek"

@@ -19,9 +19,7 @@ function tiempoParaGanarlo() {
   const figuraPublica = document.querySelector("#figuraPublica").value;
   const salarioFiguraPublica = SALARIOS_ANUALES_FIGURAS_PUBLICAS[figuraPublica];
   const salarioAnual = salarioMensual * 12;
-  localStorage.setItem('salarioAnual', JSON.stringify(salarioAnual));
-
-
+  localStorage.setItem("salarioAnual", JSON.stringify(salarioAnual));
 
   if (salarioFiguraPublica) {
     const segundosParaGanarSueldoUsuario =
@@ -46,22 +44,27 @@ function tiempoParaGanarlo() {
       icon: "success",
       width: 600,
       title: "¡Vaya! Que sorpresa😅",
-      text: `A ${figuraPublica} le llevaría ${aniosParaGanarSueldoUsuario} años, ${diasParaGanarSueldoUsuario} días, ${horasParaGanarSueldoUsuario} horas, y ${minutosParaGanarSueldoUsuario} minutos ganar tu salario anual.`,
+      text: `A ${figuraPublica} le llevaría ${aniosParaGanarSueldoUsuario} años, ${diasParaGanarSueldoUsuario} días, ${horasParaGanarSueldoUsuario} horas, y ${minutosParaGanarSueldoUsuario} minutos ganar tu salario anual. `,
       backdrop: `
     rgba(0,0,123,0.4)
     url("./assets/images/cash.gif")
     left top
     repeat
   `,
-  iconHtml: '<img class="iconNEW" src="./assets/images/fChas2.gif">',
-  customClass: {
-    icon: 'no-border'
-  }
-  
+      iconHtml: '<img class="iconNEW" src="./assets/images/fChas2.gif">',
+      customClass: {
+        icon: "no-border",
+      },
+    }).then(function () {
+      window.location.href = "resultado.html";
     });
+    
+
   } else {
   }
 }
+
+
 
 const SALARIOS_ANUALES_FIGURAS_PUBLICAS = {
   Messi: 41000000,

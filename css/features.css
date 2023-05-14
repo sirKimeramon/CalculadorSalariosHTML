@@ -248,9 +248,10 @@ body.swal2-shown > [aria-hidden="true"] {
 }
 
 .iconNEW{
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
   vertical-align: middle;
+  padding-top: 20px;
 }
 
 .swal2-icon{

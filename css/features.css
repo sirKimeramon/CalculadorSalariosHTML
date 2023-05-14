@@ -1,3 +1,11 @@
+@font-face {
+  font-family: blackOut;
+  src: url(blackOut.ttf);
+}
+.textoLogo{
+  font-family: blackOut, sans-serif;
+}
+
 .textoNaranja{
 color:rgb(241, 115, 61); 
 }
@@ -6,6 +14,17 @@ body{
   background-color: black;
 }
 
+.tituloFame{
+  font-family: '', Fallback, sans-serif;
+}
+
+.borderContainer{
+  border: solid;
+  border-color: #777;
+  border-radius: 50px;
+  padding: 50px;
+  box-sizing: border-box;
+}
 
 .b-example-divider {
   height: 3rem;

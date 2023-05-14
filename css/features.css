@@ -288,3 +288,17 @@ body.swal2-shown > [aria-hidden="true"] {
   color:white!important;
 }
 
+.nonprofit-organizations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nonprofit-organizations img {
+  width: 200px;
+  margin: 10px;
+  border: solid 2px #ccc;
+  border-radius: 10px;
+  padding: 2px;
+}
